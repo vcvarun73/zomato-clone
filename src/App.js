@@ -1,9 +1,11 @@
 import React from 'react';
-
+import Header from 'modules/Header/Header'
 const App = () => {
   return (
-    <div className="text-primary text-4xl font-bold text-blue-500">Zomato web application</div>
-  )
-}
+    <div>
+      <Header />
+    </div>
+  );
+};
 
 export default App;
